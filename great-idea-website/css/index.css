@@ -8,12 +8,13 @@
 	padding: 0;
 	margin: 0;
 	max-width: 100%;
-	border: 2px solid red;
-}
+	
 
 }
 body {
 	line-height: 1;
+	
+	
 }
 ol, ul {
 	list-style: none;
@@ -48,7 +49,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+	body{
+		margin: 1%;
+		padding:1%;
+		border: 2px solid black;
+	}
 
 	/* NAV BAR */
 	nav {
@@ -60,13 +65,50 @@ h1, h2, h3, h4, h5 {
 
 	/*GREAT IDEA LOGO*/
 	.logo {
-		padding-left: 75%;
+		padding-left: 68%;
 		
 	}
 
 
-	/*HEADER IMG*/
+	/*HEADER IMG H1*/
 	.header-img {
-		padding-left: 60%;
+		display: inline-block;
+		padding-left: 58%;
+		margin-top: 5%;	
 	}
 
+	/*DESCRIPTIONS AND MIDDLE IMAGE*/
+	.innovation{
+		display: inline-block;
+		font-size: 35px;
+		border: 2px solid black;
+			
+	}
+
+	.features{
+		display: inline-block;
+		width: 35%;
+		margin: 2%;
+	}
+
+	.about{
+		display: inline-block;
+		width: 35%;
+	}
+
+	.middle-img{
+		display: inline-block;
+		margin-left: 10%;
+		margin: 1%;
+	}
+
+	.services{
+		display: inline-block;
+		width: 35%;
+
+
+
+	}
+
+	
+	
