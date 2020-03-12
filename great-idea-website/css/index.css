@@ -50,65 +50,114 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 	body{
-		margin: 1%;
-		padding:1%;
-		border: 2px solid black;
+		margin: 5%;
+		padding:5%;
+		
 	}
 
 	/* NAV BAR */
 	nav {
-		margin-top: 3%;
-		text-align: center;
+		margin-top: 2%;
+		margin-left: 350px;
 		word-spacing: 50px;
+
+
 	}
 
 
 	/*GREAT IDEA LOGO*/
 	.logo {
-		padding-left: 68%;
-		
+		padding-left: 65%;
+		margin-bottom: 250px;
 	}
 
 
-	/*HEADER IMG H1*/
-	.header-img {
+	/*HEADER IMG H1 BUTTON*/
+	 .header-img {
+		 margin-left: 900px;
+	
+				
+	}
+
+
+	/*INNOVATION ON DEMAND AND BUTTON*/
+
+	h1{
+		font-size: 75px;
+		text-align: center;
+		width: 10%;
+		margin-top:50px;
+		margin-left:400px;
+
+	}
+
+
+	button{
+		background-color: white;
+		border: 1px solid black;
+		padding: 15px 32px;
+		text-align: center;
 		display: inline-block;
-		padding-left: 58%;
-		margin-top: 5%;	
-	}
+		font-size: 16px;
+		margin-left:450px;
+		}	
+
 
 	/*DESCRIPTIONS AND MIDDLE IMAGE*/
-	.innovation{
-		display: inline-block;
-		font-size: 35px;
-		border: 2px solid black;
-			
-	}
 
 	.features{
 		display: inline-block;
 		width: 35%;
 		margin: 2%;
+		padding-left: 15%;
 	}
 
 	.about{
 		display: inline-block;
 		width: 35%;
+		padding-left: 10%;
+		padding-bottom:1%;
 	}
-
+	/*MIDDLE IMAGE*/
+	
 	.middle-img{
 		display: inline-block;
-		margin-left: 10%;
-		margin: 1%;
+		padding-left: 15%;
+
 	}
+	/*/////////////*/
+
 
 	.services{
 		display: inline-block;
-		width: 35%;
+		width: 15%;
+		margin-left: 15%;
+		}
 
-
-
+	.products{
+		display: inline-block;
+		width: 15%;
+		margin-left:8%;
+	}
+	
+	.vision{
+		display: inline-block;
+		width: 15%;
+		margin-right:8%;
 	}
 
-	
-	
+
+	/* FOOTER */
+
+	.footer{
+		display: inline-block;
+		text-align: left;
+		width: 10%;
+		margin-left: 15%;
+		padding-top: 5%;
+	}
+
+	.copyright {
+		display: inline-block;
+		margin-left: 20%;
+		}
